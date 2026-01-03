@@ -1,0 +1,5 @@
+{
+  "death.attack.emptydamage.player": "%1$s 在逃离 %2$s 时死了",
+  "death.attack.emptydamage.item": "%1$s 被 %2$s 用 %3$s 整死了",
+  "death.attack.emptydamage": "%1$s 死了"
+}

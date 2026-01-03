@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s 死了",
+    "itemDeathMessage": "%1$s 被 %2$s 用 %3$s 整死了",
+    "playerDeathMessage": "%1$s 在逃离 %2$s 时死了"
+  }
+}

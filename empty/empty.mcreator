@@ -1,0 +1,188 @@
+{
+  "mod_elements": [
+    {
+      "name": "Emptydamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "emptydamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/empty/damage_type/emptydamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Emptykiller",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptykiller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/procedures/EmptykillerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Forcekill",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forcekill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/command/ForcekillCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Foryourlife",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foryourlife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/procedures/ForyourlifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Protectempty",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectempty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/procedures/ProtectemptyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Istrue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "istrue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/procedures/IstrueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Protect",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/command/ProtectCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Protectforcekill",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectforcekill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/command/ProtectforcekillCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Protectforcekiller",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectforcekiller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/empty/procedures/ProtectforcekillerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "death.attack.emptydamage.player": "%1$s 在逃离 %2$s 时死了",
+      "death.attack.emptydamage.item": "%1$s 被 %2$s 用 %3$s 整死了",
+      "death.attack.emptydamage": "%1$s 死了"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "empty",
+    "modName": "o(￣▽￣)ｄ",
+    "version": "1.1.3.0721",
+    "description": "只有KILL",
+    "author": "TFreeze, MCreator",
+    "websiteURL": "https://minecraft.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "gugugaga",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "TFreeze",
+    "modElementsPackage": "net.mcreator.empty"
+  },
+  "mcreatorVersion": 202400452410
+}
