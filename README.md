@@ -5,7 +5,7 @@ MCreator制作的Minecraft 1.20.1 Forge模组\
 ``/fkill <entities>``\
 强制清除实体，无尽套防不住（更强的kill说是）
 # protect
-``/protect <entites> <true or false>``\
+``/protect <entities> <true or false>``\
 开关生物保护，免疫**fkill kill**\
 死亡后**保护失效**
 # debugprotectforcekill
