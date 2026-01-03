@@ -1,5 +1,5 @@
 # MCreator-mod-empty_mod
-MCreator制作的模组\
+MCreator制作的Minecraft 1.20.1 Forge模组\
 共添加了两个指令
 # fkill
 ``/fkill <entities>``\
